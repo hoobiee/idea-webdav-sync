@@ -1,0 +1,10 @@
+<idea-plugin>
+  <id>local.idea.webdav.sync</id>
+  <name>Personal Settings WebDAV Sync</name>
+  <vendor>Local</vendor>
+  <description>Manual, reviewed synchronization of a restricted set of personal settings. Offline restore export only. Plugin list export only.</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable parentId="tools" instance="sync.SyncConfigurable" id="sync.webdav" displayName="Personal Settings WebDAV Sync"/>
+  </extensions>
+</idea-plugin>

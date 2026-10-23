@@ -1,0 +1,9 @@
+.gradle/
+build/
+.idea/
+*.iml
+
+.DS_Store
+.kotlin/
+.intellijPlatform/
+.task-tmp/
